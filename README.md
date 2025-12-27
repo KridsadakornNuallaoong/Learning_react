@@ -1,16 +1,21 @@
-# React + Vite
+# Learning React with Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a comprehensive guide to learning React using Vite as the build tool. It provides a structured approach to understanding React concepts, components, and best practices while leveraging Vite's fast development capabilities.
 
-Currently, two official plugins are available:
+## Available Plugins
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **@vitejs/plugin-react** - Uses Babel (or oxc in rolldown-vite) for Fast Refresh
+- **@vitejs/plugin-react-swc** - Uses SWC for Fast Refresh
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Fast development server with HMR
+- ESLint configuration for code quality
+- Minimal boilerplate to focus on learning
 
-## Expanding the ESLint configuration
+## Next Steps
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Explore React concepts and components
+- Configure TypeScript for type safety (see [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts))
+- Enable React Compiler for optimization (see [React Compiler docs](https://react.dev/learn/react-compiler/installation))
+
